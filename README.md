@@ -1,1 +1,1 @@
-# swing-template
+# Swing | Template
