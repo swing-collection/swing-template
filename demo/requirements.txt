@@ -1,5 +1,5 @@
 # Core dependencies
-Django>=5.1
+Django>=6.0.6
 
 # Development dependencies
 pytest
