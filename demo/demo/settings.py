@@ -69,7 +69,8 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
 
     # Local apps
-    "swing_hello",  # Reusable app under development]
+    # Add your reusable app here once it exists under `src/`, e.g.:
+    # "swing_template",
 ]
 
 

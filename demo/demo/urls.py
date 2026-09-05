@@ -12,7 +12,7 @@ Provides Demo URL Patterns
 Defines URL patterns for the demo project. This includes:
 
 - Admin panel routes for managing the application.
-- Routes for the `swing_hello` app, including a default route.
+- A placeholder for routes contributed by your reusable app.
 
 """
 
@@ -25,7 +25,7 @@ Defines URL patterns for the demo project. This includes:
 
 # Import | Libraries
 from django.contrib import admin
-from django.urls import path, include
+from django.urls import URLPattern, URLResolver, path
 
 # Import | Local Modules
 
@@ -34,8 +34,8 @@ from django.urls import path, include
 # URL Patterns
 # =============================================================================
 
-urlpatterns = [
+urlpatterns: list[URLPattern | URLResolver] = [
     path("admin/", admin.site.urls),  # Admin site URL
-    path("hello/", include("swing_hello.urls")),  # Include the URLs from the swing_hello app
-    path("", include("swing_hello.urls")),  # Include the URLs from the swing_hello app
+    # Once your app exists under `src/`, wire its URLs in here, e.g.:
+    # path("", include("swing_template.urls")),
 ]

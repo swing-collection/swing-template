@@ -1,6 +1,8 @@
-# Demo Project for `swing_hello`
+# Demo Project
 
-This is a demo Django project designed to test and showcase the functionality of the `swing_hello` reusable Django app. The project provides a simple environment to experiment with the features of `swing_hello`.
+This is a demo Django project designed to exercise reusable Django apps
+built from this template. The project provides a simple environment to
+experiment with the app you build under `src/`.
 
 ---
 
@@ -11,8 +13,8 @@ This is a demo Django project designed to test and showcase the functionality of
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/swing-collection/swing-hello.git
-cd swing-hello
+git clone https://github.com/swing-collection/swing-template.git
+cd swing-template
 cd demo
 ```
 
@@ -85,4 +87,4 @@ demo/
 ## Features
 
 - Django Admin: Access the admin interface at /admin/.
-- Swing Hello App: Test the swing_hello reusable app at /hello/.
+- Add routes for the reusable app you build under `src/` in `demo/urls.py`.

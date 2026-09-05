@@ -51,7 +51,7 @@ sys.path.append(str(BASE_DIR / "src"))
 # Functions
 # =============================================================================
 
-def main():
+def main() -> None:
     """
     Run Django administrative tasks.
 
